@@ -12,3 +12,6 @@ def dzielenie(a, b):
         return a / b
     else:
         return None
+        
+def potegowanie(a, b):
+    return a ** b
