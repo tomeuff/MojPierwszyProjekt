@@ -27,3 +27,17 @@ def NWW_lista(lst):
         nwd = a
         wynik = (x * y) // nwd
     return wynik
+    
+def czy_wzglednie_pierwsze_lista(lst):
+    n = len(lst)
+    for i in range(n):
+        for j in range(i + 1, n):
+            a, b = abs(lst[i]), abs(lst[j])
+            while a != b:
+                if a > b:
+                    a -= b
+                else:
+                    b -= a
+            if a != 1:
+                return False
+    return True
