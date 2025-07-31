@@ -11,3 +11,6 @@ def NWW(a, b):
     
 def czy_wzglednie_pierwsze(a, b):
 	return NWD(a, b) == 1
+    
+def reszta_z_dzielenia(a, b):
+	return a % b
