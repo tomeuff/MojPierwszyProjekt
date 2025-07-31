@@ -5,3 +5,6 @@ def NWD(a, b):
 		else:
 			b = b - a
 	return a
+    
+def NWW(a, b):
+	return a * b // NWD(a, b)
