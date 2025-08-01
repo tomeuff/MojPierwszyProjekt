@@ -1,5 +1,5 @@
--> pracowity
--> raptowny
--> pomocny
--> złośliwy
--> wymagający
++ pracowity
++ raptowny
++ pomocny
++ złośliwy
++ wymagający
